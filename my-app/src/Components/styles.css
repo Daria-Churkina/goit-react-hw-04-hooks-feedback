@@ -1,0 +1,63 @@
+li {
+  list-style: none;
+  font-size: 18px;
+}
+
+ul {
+  padding: 0px;
+}
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-section {
+  padding: 10px;
+  width: 350px;
+  background: #ffffff;
+
+  margin: 0 auto;
+  font-family: 'Texturina', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0a0a0aee;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 20px;
+
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  background-color: rgb(124, 45, 98);
+  color: #fff;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+  border-radius: 5px;
+}
+
+button:active {
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}
+
+.statisticName {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 5px;
+  width: 25px;
+}
